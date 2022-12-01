@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Para executar:
+
+- npm install
+- npm install creat-react-app
+- npm install axios
+- npm install bootstrap
+- npm install react-bootstrap
+- npm install react-bootstrap-icons
+- npm install styled-components
+- npm install react-dom
+- npm install react-router-dom@6
+
+- npm start
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -2,6 +2,77 @@
   text-align: center;
 }
 
+
+.my-nav {
+  height: 90px;
+  background-color: #21293a;
+  z-index: 99999;
+}
+
+.me-auto {
+  background-color: #21293a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.my-btn-confirm {
+  background-color: #21293a;
+  color: #f0f0f0;
+}
+
+.my-btn-confirm:hover {
+  background-color: #323c52;
+  color: #ffffff;
+}
+
+.my-btn-add-project {
+  background-color: #21293a;
+  color: #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.my-btn-add-project:hover {
+  background-color: #323c52;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.my-btn-loggout {
+  color: #c0c0c0;
+  position: fixed;
+  right: 0;
+  background-color: transparent;
+
+}
+
+.my-btn-loggout:hover {
+  color: #ffffff;
+  position: fixed;
+  right: 0;
+  background-color: transparent;
+
+}
+
+.my-card-table {
+  background-color:#f1f1f1;
+}
+
+.my-table {
+  background-color:#f1f1f1;
+}
+
+
+.tb-projeto-home {
+  border: solid;
+  border: 1px;
+  border-color: #c0c0c0;
+  border-radius: 30px;
+}
+
+.thead {
+  background-color: #61dafb;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +106,104 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.my-small-btn {
+  width:45px;
+  height: 20px;
+  font-size: 10px;
+  padding: 0px;
+}
+
+.my-small-btn-off {
+  width:58px;
+  height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  background-color:#ffdddd;
+}
+
+.my-small-btn-on {
+  width:58px;
+  height: 20px;
+  font-size: 10px;
+  padding: 0px;
+  background-color:#e8ffca;
+  align-items: flex-start;
+}
+
+.my-small-btn-lumi {
+  width:45px;
+  height: 15px;
+  font-size: 11px;
+  padding: 0px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  opacity: 0.6;
+  color: #ffffff;
+}
+
+.my-small-btn-lumi:hover {
+  width:45px;
+  height: 15px;
+  font-size: 11px;
+  padding: 0px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.my-bagde1 {
+  width: 33px;
+  background-color: #fce092;
+  border: 1px;
+  border-style: solid;
+  border-color: #e0d867;
+  color: #9c8313;
+  font-size: 10px;
+}
+
+.my-bagde2 {
+  width: 33px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(218, 218, 218);
+  background-color: rgb(150, 150, 150);
+  font-size: 10px;
+}
+
+.my-btn-back {
+  background-color: transparent;
+  font-size: 22px;
+  color: #e2e2e2;
+}
+
+.my-btn-back:hover {
+  background-color: transparent;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.my-small-btn-lumi-rem {
+  width:75px;
+  height: 15px;
+  font-size: 10px;
+  padding: 0px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  opacity: 0.5;
+  color: #000000;
+}
+
+.my-small-btn-lumi-rem:hover {
+  width:75px;
+  height: 15px;
+  font-size: 10px;
+  padding: 0px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  opacity: 0.8;
+  color: #000000;
 }
